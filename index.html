@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artwork from the Museum</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Artwork from the Museum</h1>
+        
+    </header>
+
+    <main>
+        <div id="main">
+        
+        <section id="featuredArtworks">
+            <h2>Featured Artworks</h2>
+            <div id="artwork-container"></div>
+        </section>
+
+        
+        <div id="detailsModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                
+            </div>
+        </div>
+
+         
+        <section id="likesSection">
+            <h2>Likes</h2>
+            <button id="likeButton">Like</button>
+            <span id="likeCount">0</span> Likes
+        </section>
+
+        
+        <section id="commentsSection">
+            <h2>Comments</h2>
+            <form id="commentForm">
+                <textarea id="commentInput" placeholder="Write a comment"></textarea>
+                <button type="submit">Post</button>
+            </form>
+            <ul id="commentsList"></ul>
+        </section>
+        </div>
+    </main>
+
+    
+    <script src="index.js"></script>
+</body>
+</html>
